@@ -1,9 +1,10 @@
+import HomePage from "@/Pages/Home/Home";
 import Image from "next/image";
 
 export default function Home() {
   return (
     <div>
-      <h1>Hello Vegetable food hub</h1>
+      <HomePage></HomePage>
     </div>
   );
 }

@@ -1,0 +1,14 @@
+[
+    {
+        "_id":1,
+        "Image":"https://i.ibb.co/LzJHYBmY/1-104111-370702823-1024x742.jpg",
+        "Title":"100% fresh organic fruits",
+        "About":"we serve 100% organic Vegetable and fruits"
+    },
+    {
+        "_id":2,
+        "Image":"https://i.ibb.co/YFNKbKMy/bea7957493379e8c2d30e83dcadf727e.jpg",
+        "Title":"We provide fresh Vegetables & fruits",
+        "About":"we serve 100% organic Vegetable and fruits"
+    }
+]

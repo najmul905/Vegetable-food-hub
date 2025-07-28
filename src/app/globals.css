@@ -1,6 +1,9 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
+html{
+  scroll-behavior: smooth;
+}
 /* for navbar css */
 .navBottomShadow{
   box-shadow: 0px 0.5px 1px 0px #82ae46;
@@ -28,4 +31,41 @@
 
 .nav-link:hover::after {
   width: 100%;
+}
+
+/* Banner section css */
+.slider-container {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.slider-track {
+  display: flex;
+  width: fit-content;
+  animation: slide 10s  linear infinite;
+}
+
+.slider-item {
+  flex: 0 0 100vw; /* each item is full screen width */
+  height: 100vh;
+  position: relative;
+}
+
+@keyframes slide {
+   0% {
+    transform: translateX(0%);
+  }
+
+  40% {
+    transform: translateX(0%); /* pause for 40% (≈3.2s of 8s) */
+  }
+
+  60% {
+    transform: translateX(-100vw); /* move quickly between 40–60% */
+  }
+
+  100% {
+    transform: translateX(-100vw); /* stay on second image */
+  }
 }

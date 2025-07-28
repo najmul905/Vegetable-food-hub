@@ -41,7 +41,7 @@ const items = <>
     <li className='nav-link'><Link href={"/card"} className='flex items-center'><ShoppingCartIcon fontSize='small'></ShoppingCartIcon> [0]</Link></li>
 </>
 return (
-    <div className=' navBottomShadow'>
+    <div className=' navBottomShadow fixed w-full  z-10 bg-white '>
         <div className='py-3 flex items-center justify-between mx-5'>
             <div className='flex items-center gap-6'> <div><Link className={`uppercase ${playWrite.className} text-[15px] text-[#82ae46]`} href="/">Vege&Food-Hub</Link></div> <div className='border border-black rounded-md flex bg-white'><input className='outline-0 ps-2 py-1 overflow-hidden text-[12px] md:w-[200px]' type="text" name="" id="" /><button className='cursor-pointer '>< SearchIcon fontSize='small'></SearchIcon> </button></div> </div>
             <div className='flex items-center gap-8'>
