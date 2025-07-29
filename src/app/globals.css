@@ -57,11 +57,11 @@ html{
     transform: translateX(0%);
   }
 
-  50% {
+  55% {
     transform: translateX(0%); /* pause for 40% (≈3.2s of 8s) */
   }
 
-  60% {
+  56% {
     transform: translateX(-100vw); /* move quickly between 40–60% */
   }
 

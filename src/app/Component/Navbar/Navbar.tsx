@@ -21,18 +21,21 @@ const Navbar = () => {
 const items = <>
     <li className='nav-link'><Link href={'/'}>Home</Link></li>
     <li className="relative group  nav-link">
-   <h1 className='flex items-center'> Shop
+   <h1 className='flex items-center cursor-pointer'> Shop
     <ArrowDropDownIcon className="text-slate-500" /></h1>
   {/* Dropdown menu */}
   <div className="absolute left-0 hover:ease-in-out duration-75 hidden group-hover:flex flex-col w-40 bg-white rounded-md shadow-lg ">
     <Link  href="/shop/item1" className="hover:bg-gray-100 px-4 py-2 nav-link">
-      Item 1
+      Vegetable
     </Link>
     <Link href="/shop/item2" className="hover:bg-gray-100 px-4 py-2 nav-link">
-      Item 2
+      Fruits
     </Link>
     <Link href="/shop/item3" className="hover:bg-gray-100 px-4 py-2 nav-link">
-      Item 3
+      Juices
+    </Link>
+    <Link href="/shop/item3" className="hover:bg-gray-100 px-4 py-2 nav-link">
+      Dried
     </Link>
   </div>
 </li>

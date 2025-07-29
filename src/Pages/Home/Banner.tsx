@@ -39,7 +39,7 @@ const Banner = async () => {
             />
             <div className="absolute inset-0 flex flex-col items-center justify-center bg-black/30">
               <h1 className={`text-white text-[40px] font-extrabold ${rock.className}`}>{item.Title}</h1>
-              <p className='text-white text-[12px] my-5'>{item.About}</p>
+              <p className='text-white text-[12px] my-5 '>{item.About}</p>
               <button className='px-5 py-2 rounded text-[14px] font-semibold bg-[#82ae46] text-white cursor-pointer  hover:bg-transparent hover:border hover:border-white'>Shop Now</button>
             </div>
           </div>
