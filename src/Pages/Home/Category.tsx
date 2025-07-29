@@ -13,7 +13,7 @@ const Category = () => {
                     </div>
                     <div className='relative w-full h-[300px]'>
                         <Image src={"https://i.ibb.co/j9r0j9Lp/fs542-main-1.jpg"} fill alt='Juices'></Image>
-                        <button className='w-32 p-4 bg-[#82ae46] border border-[#82ae46]  hover:bg-transparent text-white font-bold text-[15px] absolute bottom-0 left-0 cursor-pointer'>Vegetable</button>
+                        <button className='w-32 p-4 bg-[#82ae46] border border-[#82ae46]  hover:bg-transparent text-white font-bold text-[15px] absolute bottom-0 left-0 cursor-pointer'>Juices</button>
                     </div>
                 </section>
                     {/* middle */}
@@ -28,12 +28,12 @@ const Category = () => {
                 {/* 3rd */}
                  <section className='grid grid-rows-2 gap-5 h-[620px]'>
                     <div className='relative w-full h-[300px]'>
-                        <Image src={"https://i.ibb.co/b5CrN87W/Green-Vegetables-Names-in-English-for-Kids.jpg"} fill alt='Vegetable'></Image>
-                        <button className='w-32 p-4 bg-[#82ae46] border border-[#82ae46]  hover:bg-transparent text-white font-bold text-[15px] absolute bottom-0 left-0 cursor-pointer'>Vegetable</button>
+                        <Image src={"https://i.ibb.co/9HbzXjWx/Heart-Fruit-Smaller-1024x1024.jpg"} fill alt='Vegetable'></Image>
+                        <button className='w-32 p-4 bg-[#82ae46] border border-[#82ae46]  hover:bg-transparent text-white font-bold text-[15px] absolute bottom-0 left-0 cursor-pointer'>Fruits</button>
                     </div>
                     <div className='relative w-full h-[300px]'>
-                        <Image src={"https://i.ibb.co/j9r0j9Lp/fs542-main-1.jpg"} fill alt='Juices'></Image>
-                        <button className='w-32 p-4 bg-[#82ae46] border border-[#82ae46]  hover:bg-transparent text-white font-bold text-[15px] absolute bottom-0 left-0 cursor-pointer'>Vegetable</button>
+                        <Image src={"https://i.ibb.co/v4mnDY26/istockphoto-1218693828-612x612.jpg"} fill alt='Dried Food'></Image>
+                        <button className='w-32 p-4 bg-[#82ae46] border border-[#82ae46]  hover:bg-transparent text-white font-bold text-[15px] absolute bottom-0 left-0 cursor-pointer'>Dried Fruits</button>
                     </div>
                 </section>
             </div>
