@@ -1,0 +1,26 @@
+[
+    {
+        "_id":1,
+        "Image":"https://i.ibb.co/DDZwYDW0/1942728.png",
+        "Title":"Free Shipping",
+        "About":"On order over $100"
+    },
+    {
+        "_id":2,
+        "Image":"https://i.ibb.co/20qNyx81/pngtree-vegetables-icon-for-your-project-png-image-1597903.png",
+        "Title":"Always Fresh",
+        "About":"Product well package"
+    },
+    {
+        "_id":3,
+        "Image":"https://i.ibb.co/zTw7qtmW/pngtree-background-featuring-twitter-verification-batch-with-verified-icon-vector-png-image-45239426.png",
+        "Title":"Superior Quality",
+        "About":"Quality Products"
+    },
+    {
+        "_id":4,
+        "Image":"https://i.ibb.co/nMHCJVFC/9186432.png",
+        "Title":"Support",
+        "About":"24/7 Support"
+    }
+]

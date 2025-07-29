@@ -57,7 +57,7 @@ html{
     transform: translateX(0%);
   }
 
-  40% {
+  50% {
     transform: translateX(0%); /* pause for 40% (≈3.2s of 8s) */
   }
 
