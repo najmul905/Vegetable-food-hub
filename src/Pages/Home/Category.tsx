@@ -20,8 +20,8 @@ const Category = () => {
  <section className=" text-center relative h-[620px]">
       <h1 className="italic text-[22px] font-semibold ">Vegetable</h1>
       <p className="text-[14px] text-slate-500 uppercase my-5">Protect the health of every home</p>
-      <button className="px-5 py-2 hover:text-[#82ae46] font-semibold text-[14px] mb-4 bg-[#82ae46] border border-[#82ae46] hover:bg-transparent text-white rounded-full">Shop Now</button>
-      <div className="absolute bottom-0 w-full h-[400px]">
+      <button className="px-5 py-2 hover:text-[#82ae46] font-semibold text-[14px] mb-4 bg-[#82ae46] border border-[#82ae46] hover:bg-transparent text-white rounded-full cursor-pointer">Shop Now</button>
+      <div className="absolute bottom-0 w-full  h-[400px]">
         <Image src="https://i.ibb.co/S9mntDn/istockphoto-1409236261-612x612.jpg" fill alt="Vegetable" className="object-cover" />
       </div>
     </section>

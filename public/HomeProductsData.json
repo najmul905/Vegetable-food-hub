@@ -10,7 +10,7 @@
         "_id":2,
         "Image":"https://i.ibb.co/b5jvhk3v/green-pepper.png",
         "Name":"Green Pepper",
-        "Offer":null,
+        "Offer":30,
          "Price":43
     },
     {
@@ -52,7 +52,7 @@
         "_id":8,
         "Image":"https://i.ibb.co/tpBgxFgh/Carrots.png",
         "Name":"Carrots",
-        "Offer":null,
+        "Offer":20,
          "Price":12
     }
 ]
