@@ -58,14 +58,20 @@ html{
   }
 
   55% {
-    transform: translateX(0%); /* pause for 40% (≈3.2s of 8s) */
+    transform: translateX(0%); 
   }
 
   56% {
-    transform: translateX(-100vw); /* move quickly between 40–60% */
+    transform: translateX(-100vw); 
   }
 
   100% {
-    transform: translateX(-100vw); /* stay on second image */
+    transform: translateX(-100vw); 
   }
+}
+
+/* footer gradient */
+.footer_gradient{
+  background: #82AE46;
+background: linear-gradient(90deg,rgba(0, 0, 0, 1) 0%, rgb(41, 54, 30) 100%);
 }

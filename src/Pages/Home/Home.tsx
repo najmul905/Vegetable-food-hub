@@ -5,6 +5,7 @@ import Category from './Category';
 import OurProducts from './OurProducts';
 import OfferSection from './OfferSection';
 import Testimony from './Testimony';
+import Footer from '@/app/Component/Footer';
 
 const HomePage = () => {
     return (
@@ -15,6 +16,7 @@ const HomePage = () => {
             <OurProducts></OurProducts>
             <OfferSection></OfferSection>
             <Testimony></Testimony>
+            <Footer></Footer>
 
 
         </div>
