@@ -70,6 +70,33 @@ html{
   }
 }
 
+/* Home page category section animation */
+.category_1st_section{
+  animation: 1.5s slide1st ease;
+  animation-iteration-count: 1;
+}
+.category_1st_section2{
+  animation: 1.5s slide1st ease;
+  /* animation-delay: 1000ms; */
+  animation-iteration-count: 1;
+}
+@keyframes slide1st{
+0%{
+transform: translateX(-300px);
+/* transform: translateY(-150px); */
+scale: 0.5;
+opacity: 0;
+animation-delay: 1000ms;
+
+}
+100%{
+  
+  transform: translateX(0px);
+  /* transform: translateY(0px); */
+}
+}
+
+
 /* footer gradient */
 .footer_gradient{
   background: #82AE46;

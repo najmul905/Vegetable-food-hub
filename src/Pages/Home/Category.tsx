@@ -1,17 +1,24 @@
+'use client'
+
+import useInView from '@/Hooks/useInView';
 import Image from 'next/image';
 import React from 'react';
 
 const Category = () => {
+
+              const { ref, isInView } = useInView();
+
+
     return (
-        <div className='mt-32'>
+        <div className='mt-32 overflow-hidden'>
             <div className='grid grid-cols-3 mx-20 gap-5 '>
                 {/* 1st */}
                 <section className='grid grid-rows-2 gap-5 h-[620px]'>
-                    <div className='relative w-full h-[300px]'>
+                <div ref={ref} id='category_1st_section' className={`relative w-full h-[300px] ${isInView ? "category_1st_section" : "opacity-0 "}`}>
                         <Image src={"https://i.ibb.co/b5CrN87W/Green-Vegetables-Names-in-English-for-Kids.jpg"} fill alt='Vegetable'></Image>
                         <button className='w-32 p-4 bg-[#82ae46] border border-[#82ae46]  hover:bg-transparent text-white font-bold text-[15px] absolute bottom-0 left-0 cursor-pointer'>Vegetable</button>
                     </div>
-                    <div className='relative w-full h-[300px]'>
+                    <div ref={ref} id='category_1st_section' className={`relative w-full h-[300px]  ${isInView ? "category_1st_section2" : "opacity-0 "}`}>
                         <Image src={"https://i.ibb.co/j9r0j9Lp/fs542-main-1.jpg"} fill alt='Juices'></Image>
                         <button className='w-32 p-4 bg-[#82ae46] border border-[#82ae46]  hover:bg-transparent text-white font-bold text-[15px] absolute bottom-0 left-0 cursor-pointer'>Juices</button>
                     </div>

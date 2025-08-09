@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono,Poppins } from "next/font/google";
 import "./globals.css";
 import Navbar from "./Component/Navbar/Navbar";
-import { Provider } from "react-redux";
-import { store } from "@/Redux/store";
+// import { Provider } from "react-redux";
+// import { store } from "@/Redux/store";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -36,9 +36,10 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${poppins.className} text-[16px] antialiased`}
       >
-        <Provider store={store}></Provider>
+        {/* <Provider store={store()}> */}
         <Navbar></Navbar>
         {children}
+        {/* </Provider> */}
       </body>
     </html>
   );
