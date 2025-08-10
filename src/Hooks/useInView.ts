@@ -9,10 +9,14 @@ export default function useInView(options?: IntersectionObserverInit) {
       ([entry]) => {
         if (entry.isIntersecting) {
           setIsInView(true);
-          observer.disconnect(); // Run only once
+          observer.disconnect(); // Only trigger once
         }
       },
-      { threshold: 0, ...options }
+      {
+        threshold: 0, // trigger as soon as visible
+        rootMargin: "0px 0px -1px 0px", // wait until element is ~100px inside viewport
+        ...options,
+      }
     );
 
     if (ref.current) observer.observe(ref.current);

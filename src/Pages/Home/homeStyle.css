@@ -1,0 +1,23 @@
+.scrollingView{
+  animation: 1.5s slide1st ease;
+  animation-iteration-count: 1;
+  animation-delay: 0ms;
+}
+.scrollingViewLeft2{
+  animation: 1.5s slide1st ease;
+  animation-iteration-count: 1;
+  animation-delay: 100ms;
+}
+
+@keyframes slide1st{
+ from{
+        scale: 0.5;
+        opacity: 0;
+        transform: translateX(-150px);
+    }
+    to{
+        scale: 1;
+        opacity: 1;
+        transform: translate(0px);
+    }
+}
