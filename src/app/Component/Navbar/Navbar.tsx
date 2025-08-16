@@ -7,6 +7,7 @@ import Link from 'next/link';
 import React from 'react';
 import SearchIcon from '@mui/icons-material/Search';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import { useScrollDirection } from '@/Hooks/useScrollDirection';
 const poppins_thin = Poppins({
    subsets:["latin"],
   weight: ['200']
@@ -17,6 +18,8 @@ const playWrite=Playwrite_AR({
   weight: ['400']
 })
 const Navbar = () => {
+  const scrollDirection =useScrollDirection();
+
 
 const items = <>
     <li className='nav-link'><Link href={'/'}>Home</Link></li>
@@ -25,7 +28,7 @@ const items = <>
     <ArrowDropDownIcon className="text-slate-500" /></h1>
   {/* Dropdown menu */}
   <div className="absolute left-0 hover:ease-in-out duration-75 hidden group-hover:flex flex-col w-40 bg-white rounded-md shadow-lg ">
-    <Link  href="/shop/item1" className="hover:bg-gray-100 px-4 py-2 nav-link">
+    <Link  href="/shop/vegetable" className="hover:bg-gray-100 px-4 py-2 nav-link">
       Vegetable
     </Link>
     <Link href="/shop/item2" className="hover:bg-gray-100 px-4 py-2 nav-link">
@@ -44,7 +47,7 @@ const items = <>
     <li className='nav-link'><Link href={"/card"} className='flex items-center'><ShoppingCartIcon fontSize='small'></ShoppingCartIcon> [0]</Link></li>
 </>
 return (
-    <div className=' navBottomShadow fixed w-full  z-10 bg-white '>
+    <div className={` fixed w-full transition-transform duration-300 z-10 bg-white ${scrollDirection === "down" ? "-translate-y-full " : "translate-y-0 navBottomShadow"}`}>
         <div className='py-3 flex items-center justify-between mx-5'>
             <div className='flex items-center gap-6'> <div><Link className={`uppercase ${playWrite.className} text-[15px] text-[#82ae46]`} href="/">Vege&Food-Hub</Link></div> <div className='border border-black rounded-md flex bg-white'><input className='outline-0 ps-2 py-1 overflow-hidden text-[12px] md:w-[200px]' type="text" name="" id="" /><button className='cursor-pointer '>< SearchIcon fontSize='small'></SearchIcon> </button></div> </div>
             <div className='flex items-center gap-8'>
