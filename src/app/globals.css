@@ -11,14 +11,14 @@ html{
 -moz-box-shadow: 0px 6px 8px 0px #82ae46;
 }
 
-.nav-link {
+.nav-link_animate {
   position: relative;
   display: inline-block;
   text-decoration: none;
   color: inherit;
 }
 
-.nav-link::after {
+.nav-link_animate::after {
   content: "";
   position: absolute;
   left: 0;
@@ -29,10 +29,14 @@ html{
   transition: width 0.3s ease-in-out;
 }
 
-.nav-link:hover::after {
+.nav-link_animate:hover::after {
   width: 100%;
 }
 
+.nav-link_active::after {
+  width: 100% !important;
+  background-color: #82ae46;
+}
 /* Banner section css */
 .slider-container {
   overflow: hidden;

@@ -41,7 +41,7 @@ const ProductsCard = ({ data }: { data: Data[] }) => {
                                     alt={item.Name}
                                     height={300}
                                     width={600}
-                                    className="hover:scale-110 transition-transform duration-300 ease-in-out"
+                                    className="hover:scale-125 transition-transform duration-300 ease-in-out"
                                 />
                             </div>
                             <div className="text-center">
