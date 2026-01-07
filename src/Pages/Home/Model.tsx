@@ -21,7 +21,7 @@ const Model =async () => {
            {
             data?.map(item=>(
             <div key={item._id} className='flex flex-col items-center justify-center'>
-                <div className='rounded-full bg-sky-200 hover:bg-[#82ae46] h-[100px] w-[100px]'><Image src={`${item.Image}`} alt='Image' height={100} width={100}></Image></div>
+                <div className='rounded-full bg-sky-200 hover:bg-[#82ae46] transition duration-300 h-[100px] w-[100px]'><Image src={`${item.Image}`} alt='Image' height={100} width={100}></Image></div>
               
                     <h1 className='text[14px] uppercase font-bold pb-2 pt-4'>{item.Title}</h1>
                     <p className='text-[13px] font-semibold uppercase text-stone-500'>{item.About}</p>

@@ -16,7 +16,7 @@ const OfferSection = () => {
                     <p className='text-slate-300 text-[15px]'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
                     <h1 className='text-black text-3xl font-bold py-5'>Tomato</h1>
                     <h4 className='text-2xl'><span className='font-semibold'>Regular Price: $12</span> <span className='text-[#82ae46] font-bold'>But Now: $7</span></h4>
-                    <button className='px-6 py-2 bg-[#82ae46]  border-2 border-[#82ae46] text-white text-[16px] font-semibold hover:bg-transparent hover:text-[#82ae46] mt-3 cursor-pointer'>Buy Now</button>
+                    <button className='px-6 py-2 bg-[#82ae46]  border-2 border-[#82ae46] text-white text-[16px] font-semibold hover:bg-transparent transition duration-300 hover:text-[#82ae46] mt-3 cursor-pointer'>Buy Now</button>
                     </div>
                 </div>
             </div>

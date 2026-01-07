@@ -1,0 +1,62 @@
+[
+  {
+    "_id": 1,
+    "Image": "https://i.ibb.co.com/h1T4Tw8b/10.jpg",
+    "Name": "Rahim Ahmed",
+    "Comment": "I am very happy with this product because the quality is excellent and it works exactly as described. The delivery was fast and the packaging was also very secure."
+  },
+  {
+    "_id": 2,
+    "Image": "https://i.ibb.co.com/rfHRskm8/9.jpg",
+    "Name": "Karim Hossain",
+    "Comment": "This product exceeded my expectations in terms of quality and performance. I have been using it for several days and so far I have not faced any issues."
+  },
+  {
+    "_id": 3,
+    "Image": "https://i.ibb.co.com/k64kZwM6/1.jpg",
+    "Name": "Nusrat Jahan",
+    "Comment": "The overall experience was very good because the product arrived on time and matched the description perfectly. I would definitely recommend this to others."
+  },
+  {
+    "_id": 4,
+    "Image": "https://i.ibb.co.com/45CBC69/8.jpg",
+    "Name": "Sabbir Rahman",
+    "Comment": "I think the price is reasonable compared to the market and the quality is also quite good. Customer service responded quickly to my questions."
+  },
+  {
+    "_id": 5,
+    "Image": "https://i.ibb.co.com/39rv4W1D/2.jpg",
+    "Name": "Ayesha Akter",
+    "Comment": "The product quality is impressive and it looks exactly like the pictures shown online. I am satisfied with my purchase and will buy again."
+  },
+  {
+    "_id": 6,
+    "Image": "https://i.ibb.co.com/vCNzDY23/7.jpg",
+    "Name": "Tanvir Hasan",
+    "Comment": "I have used this product for a few days now and it is working smoothly without any problems. The build quality feels strong and reliable."
+  },
+  {
+    "_id": 7,
+    "Image": "https://i.ibb.co.com/PzZ3pjqs/3.jpg",
+    "Name": "Farhana Islam",
+    "Comment": "Everything was perfect from ordering to delivery and the product quality is also very good. I am happy with the service and support."
+  },
+  {
+    "_id": 8,
+    "Image": "https://i.ibb.co.com/qzrd0sL/6.jpg",
+    "Name": "Mehedi Hasan",
+    "Comment": "The product arrived safely and on time and the quality met my expectations. I did not face any issues while using it so far."
+  },
+  {
+    "_id": 9,
+    "Image": "https://i.ibb.co.com/pjQZq4xK/4.jpg",
+    "Name": "Jannatul Ferdous",
+    "Comment": "Although the delivery was slightly late, the product quality was very good and worth the wait. Overall I am satisfied with my purchase."
+  },
+  {
+    "_id": 10,
+    "Image": "https://i.ibb.co.com/6RNKbB6v/5.jpg",
+    "Name": "Imran Khan",
+    "Comment": "My overall experience with this product has been very positive because it performs well and the quality is great for the price."
+  }
+]

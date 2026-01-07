@@ -5,11 +5,18 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname:  "i.ibb.co",
+        hostname:  "i.ibb.co.com",
+        pathname:"/**",
         // port: '',
         // pathname: '/my-bucket/**',
         search: '',
       },
+      {
+        protocol:'https',
+        hostname:"i.ibb.co",
+        search:''
+
+      }
     ],
   },
 };

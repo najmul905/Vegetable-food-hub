@@ -37,7 +37,7 @@ const Category = ({ duration = 'duration-1000' }: AnimatedViewProps) => {
               fill
               alt='Vegetable'
             />
-            <button className='w-32 p-4 bg-[#82ae46] border border-[#82ae46] hover:bg-transparent text-white font-bold text-[15px] absolute bottom-0 left-0 cursor-pointer'>
+            <button className='w-32 p-4 bg-[#82ae46] border border-[#82ae46] hover:bg-transparent text-white font-bold text-[15px] transition duration-500 absolute bottom-0 left-0 cursor-pointer'>
               Vegetable
             </button>
           </div>
@@ -55,7 +55,7 @@ const Category = ({ duration = 'duration-1000' }: AnimatedViewProps) => {
               fill
               alt='Juices'
             />
-            <button className='w-32 p-4 bg-[#82ae46] border border-[#82ae46] hover:bg-transparent text-white font-bold text-[15px] absolute bottom-0 left-0 cursor-pointer'>
+            <button className='w-32 p-4 bg-[#82ae46] border border-[#82ae46] hover:bg-transparent text-white font-bold text-[15px] transition duration-500 absolute bottom-0 left-0 cursor-pointer'>
               Juices
             </button>
           </div>
@@ -67,7 +67,7 @@ const Category = ({ duration = 'duration-1000' }: AnimatedViewProps) => {
           <p  className='text-[14px] text-slate-500 uppercase my-5'>
             Protect the health of every home
           </p>
-          <button  className='px-5 py-2 hover:text-[#82ae46] font-semibold text-[14px] mb-4 bg-[#82ae46] border border-[#82ae46] hover:bg-transparent text-white rounded-full cursor-pointer' >
+          <button  className='px-5 py-2 hover:text-[#82ae46] font-semibold text-[14px] transition duration-500 mb-4 bg-[#82ae46] border border-[#82ae46] hover:bg-transparent text-white rounded-full cursor-pointer' >
             Shop Now
           </button>
           <div ref={image.ref} className={`absolute transition-all duration-500 bottom-0 w-full h-[400px] ${image.isInView ?" translate-y-0 scale-100 opacity-100":"translate-y-40 scale-50 opacity-0"}`}>
@@ -95,7 +95,7 @@ const Category = ({ duration = 'duration-1000' }: AnimatedViewProps) => {
               fill
               alt='Fruits'
             />
-            <button className='w-32 p-4 bg-[#82ae46] border border-[#82ae46] hover:bg-transparent text-white font-bold text-[15px] absolute bottom-0 left-0 cursor-pointer'>
+            <button className='w-32 p-4 bg-[#82ae46] border border-[#82ae46] hover:bg-transparent text-white font-bold text-[15px] transition duration-500 absolute bottom-0 left-0 cursor-pointer'>
               Fruits
             </button>
           </div>
@@ -113,7 +113,7 @@ const Category = ({ duration = 'duration-1000' }: AnimatedViewProps) => {
               fill
               alt='Dried Fruits'
             />
-            <button className='w-32 p-4 bg-[#82ae46] border border-[#82ae46] hover:bg-transparent text-white font-bold text-[15px] absolute bottom-0 left-0 cursor-pointer'>
+            <button className='w-32 p-4 bg-[#82ae46] border border-[#82ae46] hover:bg-transparent text-white font-bold text-[15px] transition duration-300 absolute bottom-0 left-0 cursor-pointer'>
               Dried Fruits
             </button>
           </div>

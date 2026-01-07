@@ -41,12 +41,12 @@ const Navbar = () => {
 
 
 const items = <>
-    <li className={`relative px-1 group/home`}><Link className='relative' href={'/'}>Home
+    <li className={`relative px-1 group`}><Link className='relative' href={'/'}>Home
     <span className={`
       absolute left-0 -bottom-0.5 h-0.5 w-0 
       bg-[#82ae46] 
       transition-all duration-300 
-      group-hover/home:w-full
+      group-hover:w-full
       ${underline ==="home"?"w-full":""}
     `}></span>
     </Link></li>
